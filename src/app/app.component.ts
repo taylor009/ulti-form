@@ -19,9 +19,6 @@ export class AppComponent  {
   ngOnInit() {
     this.userService.getUsers()
       .subscribe(users => this.users = users);
-
-    this.userService.getImages()
-      .subscribe(images => this.images = images);
   }
 
   showInfo(user) {

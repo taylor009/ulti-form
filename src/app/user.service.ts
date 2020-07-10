@@ -15,9 +15,4 @@ export class UserService {
     delete user.id;
     return this.http.post('https://jsonplaceholder.typicode.com/users/${user.id}', user);
   }
-
-  getImages() {
-    return this.http.get('https://jsonplaceholder.typicode.com/photos?albumId=1');
-  }
-
 }
