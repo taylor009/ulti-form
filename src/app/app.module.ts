@@ -11,8 +11,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 
-import { MatButtonToggleModule } from '@angular/material';
-import { MatBadgeModule } from '@angular/material';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatBadgeModule } from '@angular/material/badge';
 
 import { TableComponent, DialogOverviewExampleDialog } from './table.component';
 import { AppComponent } from './app.component';
